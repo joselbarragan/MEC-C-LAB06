@@ -19,7 +19,7 @@ public class animation  extends javax.swing.JLabel {
     }  
     //coloca una imagen en el objeto jlabel
     public void setimage(int n){        
-        this.setIcon(new javax.swing.ImageIcon(getClass().getResource("/dados/Dado" + n + ".jpg"))); 
+        this.setIcon(new javax.swing.ImageIcon(getClass().getResource("/dados/Dado" + ((int)(Math.random()*6)+1) + ".jpg"))); 
     }
     //coloca la velocidad en la variable 
     public void setvelocidad(int v){
